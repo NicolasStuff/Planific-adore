@@ -41,7 +41,7 @@ class Navbar extends Component {
                     <div className="row align-items-end">
                         <div className="col-md-3">
                             <NavLink to="/" className="logo">
-                                <img src= { require("../assets/images/logo.png")} alt="" />
+                                <img src= { require("../assets/images/NewLogoLeila.png")} alt="" />
                             </NavLink>
                         </div>
                         <div className={"col-md-9" + right}>

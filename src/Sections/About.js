@@ -12,12 +12,12 @@ const aboutSec = props => {
                 <div className="row">
                     <div className="col-lg-10 col-md-12 m-auto">
                         <div className="sec-heading">
-                            <img src={ require("../assets/images/butterfly.png") } alt="" />
-                            <span className="tagline">About our spa center</span>
-                            <h3 className="sec-title">Come and you will be Inspired!</h3>
+                            <img src={ require("../assets/images/NewLogoLeila.png") } alt="" />
+                            <span className="tagline">A propos de nous</span>
+                            <h3 className="sec-title">Venez et vous serez inspirées!</h3>
                             <p>It’s the end of summer the sweltering heat makes human sweat in the night and makes the plants and trees wilt even in the moonlit nights. The eastern wind breeze brings an eerie feeling, that the monsoon clouds are soon coming, there is a strange silence in the ears, the sky gets darker and darker</p>
                         </div>
-                        <Link to="/about" className="btn btn-round">Read more</Link>
+                        <Link to="/about" className="btn btn-round">En Savoir Plus</Link>
                     </div>
                 </div>
             </div>      
