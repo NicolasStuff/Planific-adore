@@ -10,7 +10,7 @@ const footer = props => {
                 <div className="row">
                     <div className="col-12 text-center">
                         <Link to="index.html" className="logo foo-logo">
-                            <img src={ require("../assets/images/logo.png") } alt="" />
+                            <img src={ require("../assets/images/NewLogoLeila.png") } alt="" />
                         </Link>
                         <nav className="foo-nav">
                             <ul> 
@@ -27,7 +27,7 @@ const footer = props => {
                             <Link to="#"><i className="ti-vimeo-alt"></i></Link>
                             <Link to="#"><i className="ti-instagram"></i></Link>
                         </div>
-                        <p className="copyright">&copy; COPYRIGHT 2019 <a href="https://themeies.com">themeies.com.</a> ALL RIGHTS RESERVED.</p>
+                        <p className="copyright">&copy; COPYRIGHT 2019 <a href="https://planificadore.com">PLANIFICADORE.COM.</a> ALL RIGHTS RESERVED.</p>
                     </div>
                 </div>
             </div>
