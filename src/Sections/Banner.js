@@ -5,9 +5,9 @@ const banner = props => {
     return (
         // Banner section start
         <section className="banner">
-            <div className="spa-img">
-                <img src={ require("../assets/images/spa.png") } alt="" />
-            </div>
+            {/* <div className="spa-img">
+                <img src={ require("../assets/images/appointment-img.jpg") } alt="" />
+            </div> */}
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

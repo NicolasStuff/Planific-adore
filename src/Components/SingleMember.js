@@ -8,7 +8,7 @@ const singleMember = props => {
             <div className="memb-details">
                 <h6>{ props.name }</h6>
                 <span>{ props.speciality }</span>
-                <MemberSocial socialLinks={ props.social } />
+                {/* <MemberSocial socialLinks={ props.social } /> */}
             </div>
         </div>
     )

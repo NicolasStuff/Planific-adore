@@ -18,9 +18,10 @@ const reservation = props => {
                         <div className="form-field half-width">
                             <div className="select-field">
                                 <select>
-                                    <option>Formule Prémium</option>
+                                    <option>Formule Sweet</option>
+                                    <option>Formule Prestige</option>
                                     <option>Formule Thématique</option>
-                                    <option>Formule Standard</option>
+                                    <option>Formule Flower</option>
                                 </select>
                             </div>
                             <input type="tel" placeholder="Numéro de téléphone" />
@@ -29,13 +30,13 @@ const reservation = props => {
                             <input type="text" placeholder="Adresse de l'évènement (Ville ou code postal)" required />
                             <div className="select-field">
                                 <select>
-                                    <option>Formule Baptème</option>
-                                    <option>Formule Mariage</option>
-                                    <option>Formule Baby-shower</option>
-                                    <option>Formule Anniversaire</option>
-                                    <option>Formule Fiançaille</option>
-                                    <option>Formule Corporate Event</option>
-                                    <option>Autre</option>
+                                    <option>Type d'évènements : Baptème</option>
+                                    <option>Type d'évènements : Mariage</option>
+                                    <option>Type d'évènements : Baby-shower/Fêtes de naissance</option>
+                                    <option>Type d'évènements : Anniversaire</option>
+                                    <option>Type d'évènements : Fiançaille</option>
+                                    <option>Type d'évènements : Corporate Event</option>
+                                    <option>Autres évènements(A préciser)</option>
                                 </select>
                             </div>
                         </div>
@@ -65,7 +66,7 @@ const reservation = props => {
                             Traiteur complet
                             </label>
                         </div>
-                        <h6 className="sec-title" style={{marginTop: 15}}>Formule d'animation enfants lors de l'évènement</h6>
+                        {/* <h6 className="sec-title" style={{marginTop: 15}}>Formule d'animation enfants lors de l'évènement</h6>
                         <div className="form-check" style={{marginTop: 17}}>
                             <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
                             <label className="form-check-label" for="defaultCheck1" >
@@ -74,9 +75,9 @@ const reservation = props => {
                         </div>
                         <div className="form-field half-width">
                             <input type="text" placeholder="nombre d'enfants" />
-                        </div>
+                        </div> */}
 
-                        <h6 className="sec-title" >Autres souhaits</h6>
+                        <h6 className="sec-title" style={{marginTop: 10}}>Autres souhaits</h6>
                         <div className="form-check" style={{marginTop: 17}}>
                             <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
                             <label className="form-check-label" for="defaultCheck1" >

@@ -27,7 +27,7 @@ const footer = props => {
                             <Link to="#"><i className="ti-vimeo-alt"></i></Link>
                             <Link to="#"><i className="ti-instagram"></i></Link>
                         </div>
-                        <p className="copyright">&copy; COPYRIGHT 2019 <a href="https://planificadore.com">PLANIFICADORE.COM.</a> ALL RIGHTS RESERVED.</p>
+                        <p className="copyright">&copy; COPYRIGHT 2020 <a href="https://planificadore.com">PLANIFICADORE.COM.</a> TOUT DROIT RESERVEE.</p>
                     </div>
                 </div>
             </div>

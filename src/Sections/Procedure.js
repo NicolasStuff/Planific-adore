@@ -47,7 +47,7 @@ class Procedure extends Component {
                     <div className="row">
                         <div className="col-lg-8 col-md-10 m-auto">
                             <div className="sec-heading">
-                                <h3 className="sec-title">Réservation</h3>
+                                <h3 className="sec-title">Devis</h3>
                                 <p>Nous vous proposons 3 formules différentes pour répondre à toutes vos attentes</p>
                             </div>
                         </div>

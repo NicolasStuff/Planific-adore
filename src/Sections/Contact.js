@@ -43,7 +43,6 @@ class Contact extends Component {
 
 
     render () {
-        
         return (
             // Contact section start
             <section className="contact">
@@ -51,8 +50,8 @@ class Contact extends Component {
                     <div className="row">
                         <div className="col-lg-8 col-md-10 m-auto">
                             <div className="sec-heading">
-                            <h3 className="sec-title">Get In Touch</h3>
-                            <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+                            <h3 className="sec-title">Restons en contact</h3>
+                            <p>Une demande particulière ? Laisser nous vos coordonnées nous vous répondrons sous 48h, merci !</p>
                             </div>
                         </div>
                     </div>
@@ -62,18 +61,18 @@ class Contact extends Component {
                                 <div className="col-md-4">
                                     <address>
                                         <span className="ti-map-alt"></span>
-                                        848 E 28th ST, BROOKLYN <br />
-                                        NEW YORK, USa
+                                        Ile-de-France,  <br />
+                                        Paris, France
                                     </address>
                                     <address>
                                         <span className="ti-email"></span>
-                                        <a href="mailto:example@leospa.com">example@leospa.com</a>
-                                        <a href="mailto:example@leospa.com">example@leospa.com</a>
+                                        <a href="mailto:samanimidf@gmail.com">samanimidf@gmail.com</a>
+                                        <a href="mailto:samanimidf@gmail.com">samanimidf@gmail.com</a>
                                     </address>
                                     <address>
                                         <span className="ti-tablet"></span>
-                                        <a href="tel:+0236523653265(02)">tel:+02 365 2365 3265 (02)</a>
-                                        <a href="tel:+0136523653265(04)">+01 365 2365 3265 (04)</a>
+                                        <a href="tel:+336 61 08 52 94">tel:06 61 08 52 94</a>
+                                        <a href="tel:336 61 08 52 94">06 61 08 52 94</a>
                                     </address>
                                 </div>
                                 <div className="col-md-7 offset-md-1">
@@ -81,7 +80,7 @@ class Contact extends Component {
                                         <input 
                                             type="text" 
                                             name="firstName" 
-                                            placeholder="First Name" 
+                                            placeholder="Prenom" 
                                             onChange={ this.inputChangeHandler}
                                             value={this.state.contactInfo.firstName} 
                                             required
@@ -89,19 +88,19 @@ class Contact extends Component {
                                         <input 
                                             type="email" 
                                             name="email" 
-                                            placeholder="Email Address" 
+                                            placeholder="Adresse Email" 
                                             onChange={ this.inputChangeHandler }
                                             value={this.state.contactInfo.email}
                                             required
                                         />
                                         <textarea 
                                             name="message" 
-                                            placeholder="Write Comment"
+                                            placeholder="Ecrire un commentaire"
                                             onChange={ this.inputChangeHandler }
                                             value={this.state.contactInfo.message}
                                             required
                                         ></textarea>
-                                        <button type="submit" className="btn btn-round">Submit now</button>
+                                        <button type="submit" className="btn btn-round">Envoyer maintenant</button>
                                     </form>
                                 </div>
                             </div>

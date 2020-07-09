@@ -48,11 +48,11 @@ class Navbar extends Component {
                             <nav className="primary-menu">
                                 <button className="mobile-menu" onClick={ this.menuToggleHandler }><i className="ti-menu"></i></button>
                                 <ul className={ this.state.menuOpen ? "active" : '' }> 
-                                    <li><NavLink to="/" onClick={ this.clearStateHandler }>Home</NavLink></li>
-                                    <li><NavLink to="/about" onClick={ this.clearStateHandler }>About</NavLink></li>
-                                    <li><NavLink to="/feature" onClick={ this.clearStateHandler }>feature</NavLink></li>
-                                    <li><NavLink to="/services" onClick={ this.clearStateHandler }>service</NavLink></li>
-                                    <li><NavLink to="/blog" onClick={ this.clearStateHandler }>blog</NavLink></li>
+                                    <li><NavLink to="/" onClick={ this.clearStateHandler }>Accueil</NavLink></li>
+                                    <li><NavLink to="/services" onClick={ this.clearStateHandler }>Devis</NavLink></li>
+                                    <li><NavLink to="/about" onClick={ this.clearStateHandler }>A Propos</NavLink></li>
+                                    {/* <li><NavLink to="/feature" onClick={ this.clearStateHandler }>feature</NavLink></li> */}
+                                    {/* <li><NavLink to="/blog" onClick={ this.clearStateHandler }>blog</NavLink></li> */}
                                     <li><NavLink to="/contact" onClick={ this.clearStateHandler }>Contact</NavLink></li>
                                 </ul>
                             </nav>

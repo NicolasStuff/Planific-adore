@@ -11,26 +11,26 @@ const appointment = props => {
                 <div className="appointment-form">
                     <form action="#">
                         <div className="form-field half-width">
-                            <input type="text" placeholder="NAME" required />
-                            <input type="email" placeholder="Email address" required />
+                            <input type="text" placeholder="Nom" required />
+                            <input type="email" placeholder="Adresse Email" required />
                         </div>
                         <div className="form-field half-width">
                             <div className="select-field">
                                 <select>
-                                    <option>Select service</option>
-                                    <option>Select service 1</option>
+                                    <option>Decoration</option>
+                                    <option>Planification d'évènements</option>
                                 </select>
                             </div>
-                            <input type="tel" placeholder="Phone numer" />
+                            <input type="tel" placeholder="Numéro de téléphone" />
                         </div>
                         <div className="form-field half-width">
                             <input type="date" placeholder="date" />
-                            <input type="time" placeholder="time" />
+                            <input type="time" placeholder="heure" />
                         </div>
                         <div className="form-field">
-                            <textarea name="notes" placeholder="Your notes"></textarea>
+                            <textarea name="notes" placeholder="Votre message"></textarea>
                         </div>
-                        <button className="btn btn-round">Make an Appointment</button>
+                        <button className="btn btn-round">Prendre rendez-vous</button>
                     </form>
                 </div>
             </div>
@@ -38,5 +38,4 @@ const appointment = props => {
         // Appointment section end
     )
 }
-
 export default appointment

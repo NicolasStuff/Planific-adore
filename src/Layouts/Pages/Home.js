@@ -14,12 +14,12 @@ const home = props => {
         <React.Fragment>
             <Banner />
             <AboutSec />
-            <Service />
+            {/* <Service /> */}
             <Procedure />
             <Testimonial />
             <Team />
             <Appointment />
-            <Blog />
+            {/* <Blog /> */}
             <Contact />
         </React.Fragment>
     )

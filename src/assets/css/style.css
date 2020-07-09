@@ -89,7 +89,7 @@ section {
 }
 
 .btn {
-  background-color: #ff817e;
+  background-color: #8CDFD2;
   border-radius: 0;
   color: #fff;
   display: inline-block;
@@ -128,13 +128,13 @@ section {
 }
 
 .video-btn:hover {
-  color: #ff817e;
+  color: #8CDFD2;
 }
 
 .video-btn i {
   border-radius: 50%;
   background-color: #fcf5ee;
-  color: #ff817e;
+  color: #8CDFD2;
   display: inline-block;
   line-height: 44px;
   text-align: center;
@@ -211,7 +211,7 @@ section {
   .primary-menu .mobile-menu, .footer .foo-nav .mobile-menu {
     background: transparent;
     border: none;
-    color: #ff817e;
+    color: #8CDFD2;
     display: block;
     font-size: 18px;
     position: absolute;
@@ -244,7 +244,7 @@ section {
 }
 
 .primary-menu li a:hover, .footer .foo-nav li a:hover {
-  color: #ff817e;
+  color: #8CDFD2;
 }
 
 @media screen and (max-width: 767px) {
@@ -273,7 +273,7 @@ section {
 }
 
 .banner {
-  background: url(../images/leaf.png) no-repeat left center/12.5%;
+  background: /*url(../images/leaf.png)*/ no-repeat left center/12.5% ;
   padding: 12% 0;
 }
 
@@ -290,7 +290,7 @@ section {
 }
 
 .banner span {
-  color: #ff817e;
+  color: #8CDFD2;
   display: block;
   font-family: "Rufina", serif;
   letter-spacing: 1.5px;
@@ -489,7 +489,7 @@ section {
 }
 
 .post:hover .btn {
-  background-color: #ff817e;
+  background-color: #8CDFD2;
   color: #fff;
 }
 
@@ -599,7 +599,7 @@ section {
 }
 
 .appointment-form {
-  background-color: #fff9f8;
+  background-color: #fff;
 }
 
 .appointment-form .form-field {
@@ -683,7 +683,7 @@ section {
   background-color: #fff;
   -webkit-box-shadow: 0 5px 20px #f0f0f0;
   box-shadow: 0 5px 20px #f0f0f0;
-  max-width: calc( 100% - 60px);
+  max-width: calc( 100% );
   margin: -50px auto 0;
   padding: 30px;
   position: relative;
@@ -741,8 +741,8 @@ section {
 }
 
 .team .single-memb .memb-social a:hover {
-  background-color: #ff817e;
-  border-color: #ff817e;
+  background-color: #8CDFD2;
+  border-color: #8CDFD2;
   color: #fff;
 }
 
@@ -772,11 +772,11 @@ section {
 }
 
 .contact address a:hover {
-  color: #ff817e;
+  color: #8CDFD2;
 }
 
 .contact address span {
-  background-color: #ff817e;
+  background-color: #8CDFD2;
   border-radius: 50%;
   color: #fff;
   display: block;
@@ -917,7 +917,7 @@ section {
 }
 
 .comments ul li a:hover {
-  color: #ff817e;
+  color: #8CDFD2;
 }
 
 .comments ul li a:first-of-type {
@@ -1015,7 +1015,7 @@ section {
 }
 
 .comment-form button {
-  background-color: #ff817e;
+  background-color: #8CDFD2;
   text-transform: uppercase;
   padding: 15px 30px;
 }
@@ -1047,7 +1047,7 @@ section {
 }
 
 .footer .foo-social a:hover {
-  color: #ff817e;
+  color: #8CDFD2;
 }
 
 .footer .copyright {
@@ -1058,7 +1058,7 @@ section {
 }
 
 .footer .copyright a {
-  color: #ff817e;
+  color: #8CDFD2;
 }
 
 /* Sidebar */
