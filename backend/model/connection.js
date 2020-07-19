@@ -6,8 +6,8 @@ var options = {
    
         useUnifiedTopology : true
    }
-   mongoose.connect('mongodb+srv://NicolasIvorra:82vYBdEmv7KIM9bp@cluster0-vy9dx.mongodb.net/Planific-adore?retryWrites=true&w=majority',
-    options,    
+   mongoose.connect('mongodb+srv://NicolasIvorra:XhtpaVnAw6bCfTiz@cluster0-vy9dx.mongodb.net/Cluster0?retryWrites=true&w=majority',
+   options,    
     function(err) {
      console.log(err);
     }

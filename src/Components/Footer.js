@@ -14,18 +14,16 @@ const footer = props => {
                         </Link>
                         <nav className="foo-nav">
                             <ul> 
-                                <li><Link to="#">Home</Link></li>
-                                <li><Link to="#">About</Link></li>
-                                <li><Link to="#">feature</Link></li>
-                                <li><Link to="#">service</Link></li>
-                                <li><Link to="#">Contact</Link></li>
+                                <li><Link to="/">Accueil</Link></li>
+                                <li><Link to="/service">Devis</Link></li>
+                                <li><Link to="/about">A Propos</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
+                                {/* <li><Link to="#">Contact</Link></li> */}
                             </ul>
                         </nav>
                         <div className="foo-social">
-                            <Link to="#"><i className="ti-facebook"></i></Link>
-                            <Link to="#"><i className="ti-twitter-alt"></i></Link>
-                            <Link to="#"><i className="ti-vimeo-alt"></i></Link>
-                            <Link to="#"><i className="ti-instagram"></i></Link>
+                            <Link to="https://www.facebook.com/Planificadore-Events-115258966917121"><i className="ti-facebook"></i></Link>
+                            <Link to="https://www.instagram.com/planificadore.events/?hl=fr"><i className="ti-instagram"></i></Link>
                         </div>
                         <p className="copyright">&copy; COPYRIGHT 2020 <a href="https://planificadore.com">PLANIFICADORE.COM.</a> TOUT DROIT RESERVEE.</p>
                     </div>

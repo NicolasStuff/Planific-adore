@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from '../axios-orders'
 import Post from '../Components/Post'
+import { Link } from 'react-router-dom'
 
 class Procedure extends Component {
 
@@ -42,6 +43,7 @@ class Procedure extends Component {
         
         return (
             // Procedures section start
+            <div>
             <section className="procedures">
                 <div className="container">
                     <div className="row">
@@ -57,6 +59,7 @@ class Procedure extends Component {
                     </div>
                 </div>      
             </section>
+            </div>
             // Procedures section end
         )
     }

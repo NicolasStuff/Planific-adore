@@ -3,12 +3,12 @@ import React from 'react'
 const appointment = props => {
     return (
         // Appointment section start
-        <section className="appointment">
-            <div className="appointment-wrap">
+        <div className=" appointmentHome">
+            <div className="appointmentHome-wrap">
                 <figure>
                     <img src={ require("../assets/images/appointment-img.jpg") } alt="" />
                 </figure>
-                <div className="appointment-form">
+                <div className="appointmentHome-form">
                     <form action="#">
                         <div className="form-field half-width">
                             <input type="text" placeholder="Nom" required />
@@ -34,7 +34,7 @@ const appointment = props => {
                     </form>
                 </div>
             </div>
-        </section>
+        </div>
         // Appointment section end
     )
 }

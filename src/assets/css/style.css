@@ -442,9 +442,9 @@ section {
   visibility: visible;
 }
 
-.procedures {
+/* .procedures {
   position: relative;
-}
+} */
 
 .blog {
   padding-bottom: 20px;
@@ -587,9 +587,9 @@ section {
   max-width: 650px;
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
+  /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
 @media screen and (max-width: 1300px) {
@@ -664,6 +664,129 @@ section {
   }
   .appointment-form .form-field.half-width input,
   .appointment-form .form-field.half-width .select-field {
+    width: 49%;
+  }
+}
+
+.appointmentHome .v2 {
+  padding-bottom: 0;
+  border-bottom: 1px solid #fdd5d5;
+}
+
+.appointmentHome .appointmentHome-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.appointmentHome .appointmentHome-wrap figure {
+  -ms-flex-preferred-size: 40%;
+  flex-basis: 40%;
+}
+
+@media screen and (max-width: 1300px) {
+  .appointmentHome .appointmentHome-wrap figure {
+    display: none;
+  }
+}
+
+.appointmentHome .appointmentHome-wrap .appointmentHome-form {
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 1300px) {
+  .appointmentHome .appointmentHome-wrap .appointmentHome-form {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    padding: 30px 15px;
+  }
+}
+
+.appointmentHome .appointmentHome-wrap .appointmentHome-form form {
+  max-width: 650px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1300px) {
+  .appointmentHome .appointmentHome-wrap .appointmentHome-form form {
+    margin: 0 auto;
+  }
+}
+
+.appointmentHome-form {
+  background-color: #fff;
+}
+
+.appointmentHome-form .form-field {
+  position: relative;
+  width: 100%;
+}
+
+.appointmentHome-form .form-field input, .appointmentHome-form .form-field textarea, .appointmentHome-form .form-field select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d3d3;
+  color: #999;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.appointmentHome-form .form-field input::-webkit-input-placeholder, .appointmentHome-form .form-field textarea::-webkit-input-placeholder, .appointmentHome-form .form-field select::-webkit-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointmentHome-form .form-field input:-ms-input-placeholder, .appointmentHome-form .form-field textarea:-ms-input-placeholder, .appointmentHome-form .form-field select:-ms-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointmentHome-form .form-field input::-ms-input-placeholder, .appointmentHome-form .form-field textarea::-ms-input-placeholder, .appointmentHome-form .form-field select::-ms-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointmentHome-form .form-field input::placeholder, .appointmentHome-form .form-field textarea::placeholder, .appointmentHome-form .form-field select::placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.appointmentHome-form .form-field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-transform: uppercase;
+}
+
+.appointmentHome-form .form-field .select-field {
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .appointmentHome-form .form-field.half-width {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .appointmentHome-form .form-field.half-width input,
+  .appointmentHome-form .form-field.half-width .select-field {
     width: 49%;
   }
 }
