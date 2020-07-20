@@ -9,7 +9,7 @@ import Appointment from '../../Sections/Appointment'
 import Blog from './Blog'
 import Contact from '../../Sections/Contact'
 
-const home = props => {
+function home () {
     return (
         <React.Fragment>
             <Banner />

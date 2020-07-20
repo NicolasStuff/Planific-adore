@@ -15,9 +15,7 @@ import './assets/css/themify-icons.css'
 import './assets/css/bootstrap.min.css'
 import './assets/css/style.css';
 
-class App extends Component {
-
-  render() {
+function App () {
     return (
       <BrowserRouter>
         <div className="App">
@@ -27,16 +25,14 @@ class App extends Component {
               <Route path="/about" component={ About } />
               <Route path="/services" component={ Service } exact />
               <Route path="/blog" exact component={ Blog } />
-              <Route path="/blog/:id" component={ SinglePost }/>          
-              <Route path="/contact" component={ Contact } />              
-              <Route path="*" component={ ErrorPage } />              
+              <Route path="/blog/:id" component={ SinglePost }/>
+              <Route path="/contact" component={ Contact } />           
+              <Route path="*" component={ ErrorPage } />         
             </Switch>
           </Layout>
         </div>
       </BrowserRouter>
     );
-  }
-  
 }
 
 export default App;
