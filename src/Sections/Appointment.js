@@ -46,7 +46,7 @@ const Appointment = () => {
                             <div className="form-field">
                                 <textarea name="notes" placeholder="Votre message" onChange={(e) => setMessage(e.target.value)}></textarea>
                             </div>
-                            <button className="btn btn-round" type="submit" onClick={() => handleSubmitAppointment()}>Prendre rendez-vous</button>
+                            <button className="btn btn-round" type="button" onClick={() => handleSubmitAppointment()}>Prendre rendez-vous</button>
                         </form>
                     </div>
                 </div>

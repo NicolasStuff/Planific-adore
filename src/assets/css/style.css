@@ -458,6 +458,8 @@ section {
   transition: all 300ms ease-in-out;
   padding: 20px;
   margin-bottom: 30px;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .post img {
@@ -1407,3 +1409,64 @@ section {
 .error h2 {
   margin-bottom: 30px;
 }
+.trustedMechCarousel{
+  width: 100%;
+  height: 100%;
+}
+
+.carouselCont{
+  background-color: #f1f2ed;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.ImgCont{
+  float: left !important;
+  width: 50%;
+}
+
+.TextCont{
+  padding: 1% !important;
+  position: relative;
+  height: 50%;
+  right: 4%;
+  width: 50%;
+  font-size: 15px;
+}
+
+.carousel-caption{
+  position: relative !important;
+  top: 0 !important;
+  height: 100% !important;
+  width: 75% !important;
+}
+
+.TextCont p{
+  color: black !important;
+}
+
+.TextCont h3{
+  color: black !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+/* .carousel-control-next-icon:after{
+  content: '>';
+  font-size: 55px;
+  color: black;
+} */
+
+/* .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: white;
+} */
