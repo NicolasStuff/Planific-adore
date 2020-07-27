@@ -96,7 +96,7 @@ router.post('/devisService', async function (req, res, next) {
   
   var mailOptions = {
     from: 'planificadore@gmail.com',
-    to: 'nicolas.ivorra.livraison@gmail.com',
+    to: 'leila.samantha95@gmail.com',
     subject: `Nouveau devis de ${newDevis.name}`,
     html: `<h1>Nouveau devis de ${newDevis.name}</h1><h2> Informations du client</h2><p>Nom : ${newDevis.name} </p><p>Email : ${newDevis.email} </p><p>Téléphone : ${newDevis.phone} </p><p>Adresse : ${newDevis.adress} </p><p>Date de l'évènement : ${newDevis.date} </p><p>Nombre de personnes : ${newDevis.number} </p><h2> Informations de l'évènement </h2><p>Type : ${newDevis.type} </p><p>Type d'évènement : ${newDevis.typeOfTheme} </p><h2>Nombre de personnes : </h2><p>15 personnes : ${newDevis.additionnalFirst}</p><p>20 personnes : ${newDevis.additionnalSecond}</p> <p>30 personnes : ${newDevis.additionnalThird}</p> <p>50 personnes : ${newDevis.additionnalFourth}</p> <p>Plus de 50 personnes : ${newDevis.additionnalLast}</p> <h2> Suppléments Sucrée<h2/> <p>Traiteur : ${newDevis.traitor}</p> <p>Pièces Sucrée ${newDevis.sugarPieces}</p> <p>Pièces salée : ${newDevis.sugerSalt}</p> <p>Machine à barbe à Papa: ${newDevis.dadBear}</p> <p>Fontaine de chxocolat: ${newDevis.chocolate}</p> <p>Machine à Pop Corn : ${newDevis.popCorn}</p><p>Machine à crêpes : ${newDevis.crepe}</p> <p>HotDog : ${newDevis.hotDog}</p> <p>Glaces à l'Italienne : ${newDevis.iceCream}</p><p>Machine à Granita : ${newDevis.granita}</p> <p>Machine à Photobooth : ${newDevis.photobooth}</p> <p>Animaux en Résine : ${newDevis.resine}</p><h2> Message du Client :</h2><p> ${newDevis.moreInfo}</p>`
   };
