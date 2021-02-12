@@ -589,9 +589,9 @@ section {
   max-width: 650px;
   position: relative;
   top: 50%;
-  /* -webkit-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
+  transform: translateY(-50%);
 }
 
 @media screen and (max-width: 1300px) {
